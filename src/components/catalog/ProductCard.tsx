@@ -28,7 +28,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           className="max-h-full max-w-full object-contain p-4 transition-transform duration-300 group-hover:scale-110"
         />
       </div>
-      <div className="p-4">
+      <div className="p-3 md:p-4">
         <h3 className="text-lg font-bold text-gray-800 truncate">
           {product.title}
         </h3>
