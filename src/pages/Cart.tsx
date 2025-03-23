@@ -26,11 +26,11 @@ const Cart: React.FC = () => {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-12">
+    <div className="max-w-7xl mx-auto px-0 md:px-6 py-12">
       <h1 className="text-4xl font-bold text-gray-800 mb-10">Shopping Cart</h1>
       <div className="flex flex-col lg:flex-row gap-10">
         <div className="flex-1">
-          <div className="bg-white rounded-xl shadow-lg p-8">
+          <div className="bg-white rounded-xl shadow-lg p-4 md:p-8">
             <h2 className="text-2xl font-semibold text-gray-800 mb-6">
               Cart Items
             </h2>

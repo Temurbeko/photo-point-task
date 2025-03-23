@@ -27,7 +27,7 @@ const Catalog: React.FC = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-6 py-12">
-      <h1 className="text-4xl font-extrabold text-gray-900 mb-8">
+      <h1 className="text-2xl md:text-4xl font-extrabold text-gray-900 mb-4 md:mb-8">
         Product Catalog
       </h1>
 

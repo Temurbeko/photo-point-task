@@ -10,7 +10,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link
           to="/"
-          className="text-3xl font-extrabold tracking-wide hover:text-yellow-300 transition-colors"
+          className="text-lg md:text-xl font-extrabold tracking-wide hover:text-yellow-300 transition-colors"
         >
           Photo Point Shop 🛒
         </Link>

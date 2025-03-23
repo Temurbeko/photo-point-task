@@ -11,7 +11,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
   const { product, quantity } = item;
 
   return (
-    <div className="flex items-center py-6 border-b border-gray-200">
+    <div className="flex md:flex-nowrap flex-wrap justify-between gap-y-2 items-center py-6 border-b border-gray-200">
       <div className="w-24 h-24 flex-shrink-0 bg-gray-50 rounded-xl overflow-hidden shadow-md">
         <img
           src={product.image}
@@ -33,7 +33,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
         </div>
       </div>
 
-      <div className="flex items-center ml-6 space-x-2">
+      <div className="flex items-center ml-6 space-x-2 font-bold text-xl justify-center">
         <button
           onClick={() => updateQuantity(product.id, quantity - 1)}
           disabled={quantity <= 1}
